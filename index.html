@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario JS Validacion</title>
+    <link rel="stylesheet" href="css/normalize.css?v=1">
+    <link rel="stylesheet" href="css/fonts.css?v=1">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="index.html" method="POST" class="formulario" id="formulario" onsubmit="return false" >
+            <p><input type="text" placeholder="Nombre" id="nombre" required></p>
+            <p><input type="text" placeholder="Apellido" id="apellido" required></p>
+            <p><input type="number" placeholder="Edad" id="edad" required></p>
+            <input type="submit" value="Enviar Datos" id="btnEnviar">
+        </form>  
+        <div class="resultados" id="resultados">
+            <h2 class="titulo-resultados">Datos Enviados</h2>
+            <hr><br>
+            <span id="spanNombre"></span><br>
+            <span id="spanApellido"></span><br>
+            <span id="spanEdad"></span>
+        </div>
+    </div>
+</body>
+</html>

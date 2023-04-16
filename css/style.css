@@ -1,0 +1,44 @@
+@font-face {
+    font-family: miFuente;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body{
+    background:azure;
+    font-family: miFuente;
+}
+
+.container{
+    width: fit-content;
+    height: auto;
+    margin: 50px auto;
+    border: 1px solid black;
+    display: flex;
+    padding: 5px;
+}
+
+.formulario{
+    width: fit-content;
+    padding: 10px;
+}
+
+.formulario input[type='text'],[type='submit'],[type='number']{
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.resultados{
+    border: 1px dashed black;
+    width: fit-content;
+    padding: 10px;
+    display: none;
+}
+
+.resultados-mostrar{
+    display: block;
+}
+
+.titulo-resultados{
+    margin-bottom: 2px;
+}
